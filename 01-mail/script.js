@@ -29,7 +29,8 @@ for(let i =0 ; i < guestList.length ; ++i) {
     //se trovo una corrispondenza cambio la variabile in true e stampo email trovata
     if(guestList[i] === guestEmail) {
         found = true ; 
-        console.log("Email presente, puoi accedere !", guestEmail); 
+        console.log("Email presente, puoi accedere !", guestEmail);
+        
     }
 }
 
